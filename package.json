@@ -25,7 +25,8 @@
     "debug": "^4.1.0",
     "esm": "^3.0.84",
     "express": "^4.16.4",
-    "http": "0.0.0"
+    "http": "0.0.0",
+    "mongoose": "^5.3.13"
   },
   "devDependencies": {
     "eslint": "^5.9.0",

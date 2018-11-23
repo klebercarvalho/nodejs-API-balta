@@ -1,7 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
 
 const app = express();
+
+// connect to DB
+mongoose.connect('mongodb://127.0.0.1:27017/api-balta');
 
 // load route
 const index = require('./routes/index').default;
