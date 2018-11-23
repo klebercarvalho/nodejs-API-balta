@@ -7,7 +7,7 @@ router.post('/', (req, res, next) => {
 });
 
 router.put('/:id', (req, res, next) => {
-  const id = req.params.id;
+  const { id } = req.params;
   res.status(200).send({
     id,
     item: req.body,

@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 
 // load route
-const index = require('./routes/index');
+const index = require('./routes/index').default;
 const product = require('./routes/product');
 
 // parse application/x-www-form-urlencoded
