@@ -5,6 +5,8 @@ const controller = require('../controllers/product');
 
 router.get('/', controller.get);
 
+router.get('/:slug', controller.getBySlug);
+
 router.post('/', controller.post);
 
 router.put('/:id', controller.put);
