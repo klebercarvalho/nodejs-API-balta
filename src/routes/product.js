@@ -9,6 +9,8 @@ router.get('/:id', controller.getById);
 
 router.get('/slug/:slug', controller.getBySlug);
 
+router.get('/tags/:tag', controller.getByTag);
+
 router.post('/', controller.post);
 
 router.put('/:id', controller.put);
