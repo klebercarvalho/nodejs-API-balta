@@ -7,7 +7,7 @@ exports.get = (req, res, next) => {
     {
       active: true,
     },
-    'title price slug',
+    'title price slug tags active',
   )
     .then((data) => {
       res.status(200).send(data);
